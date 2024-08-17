@@ -15,15 +15,28 @@ El commando de [`git commit -m (comentario)`](https://git-scm.com/docs/git-commi
 
 ![image](./assets/foto1.png)
 
-## Parte 2 intent un cambio yo
+## Parte 2
 
-#### cambio a readme
+Owner y Colaborador editan el archivo README.md al mismo tiempo e intentan subir los cambios al mismo tiempo.
+¿Que sucedió?
 
+Lo que sucedió fue que al owner se le subieron los cambios que realizó, pero al colaborador no le dejó debido a que los commits en el git 
+estaban retrasados en un commit, por lo que se debia realizar primero un pull. Al hacer el pull decía que no era posible hacer el merge
+debido a que habia conflictos en las ramas y, que se debian solucionar antes de hacer el push de nuevo.
 
-#### Miguel: Agrego un cambio en readme
 
 
 ## Parte 3
 
-uso de la nueva rama
+¿Hay una mejor forma de trabajar con git para no tener conflictos?
+Sí. Una mejor forma es crear ramas para cada desarrolador donde este haga sus cambios sin afectar la rama principal.
+
+¿Qué es  el Pull Request?
+Un pull request es una solicitud a un repositorio para proponer cambios a los responsables de este.
+¿cómo funciona?
+Primero se crea una nueva rama en tu repositorio.
+Realiza y confirma los cambios.
+Crea una pull request desde Github, selecciona tu rama y describe la solicitud.
+Después, el encargado realiza la revisión de tu pull request para denegarla o aceptarla.
+
 
