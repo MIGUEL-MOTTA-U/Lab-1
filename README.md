@@ -20,11 +20,14 @@ El commando de [`git commit -m (comentario)`](https://git-scm.com/docs/git-commi
 Owner y Colaborador editan el archivo README.md al mismo tiempo e intentan subir los cambios al mismo tiempo.
 ¿Que sucedió?
 
+![image](.assets/error1.png)
+
+
 Lo que sucedió fue que al owner se le subieron los cambios que realizó, pero al colaborador no le dejó debido a que los commits en el git 
 estaban retrasados en un commit, por lo que se debia realizar primero un pull. Al hacer el pull decía que no era posible hacer el merge
 debido a que habia conflictos en las ramas y, que se debian solucionar antes de hacer el push de nuevo.
 
-
+![image](.assets/solucion1.png)
 
 ## Parte 3
 
@@ -33,6 +36,14 @@ Sí. Una mejor forma es crear ramas para cada desarrolador donde este haga sus c
 
 ### ¿Qué es  el Pull Request?
 Un pull request es una solicitud a un repositorio para proponer cambios a los responsables de este.
+
+![image](.assets/pull1.png)
+![image](.assets/pull2.png)
+
+Luego la persona que administra el repositorio verifica los cambios y aprueba o declina la pull request:
+![image](.assets/solucion2.png)
+![image](.assets/final.png)
+
 
 ### ¿Cómo funciona?
 
