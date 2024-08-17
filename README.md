@@ -28,15 +28,20 @@ debido a que habia conflictos en las ramas y, que se debian solucionar antes de 
 
 ## Parte 3
 
-¿Hay una mejor forma de trabajar con git para no tener conflictos?
+### ¿Hay una mejor forma de trabajar con git para no tener conflictos?
 Sí. Una mejor forma es crear ramas para cada desarrolador donde este haga sus cambios sin afectar la rama principal.
 
-¿Qué es  el Pull Request?
+### ¿Qué es  el Pull Request?
 Un pull request es una solicitud a un repositorio para proponer cambios a los responsables de este.
-¿cómo funciona?
-Primero se crea una nueva rama en tu repositorio.
-Realiza y confirma los cambios.
-Crea una pull request desde Github, selecciona tu rama y describe la solicitud.
-Después, el encargado realiza la revisión de tu pull request para denegarla o aceptarla.
+
+### ¿Cómo funciona?
+
+* Primero se crea una nueva rama en tu repositorio.
+
+* Realiza y confirma los cambios.
+
+* Crea una pull request desde Github, selecciona tu rama y describe la solicitud.
+
+* Después, el encargado realiza la revisión de tu pull request para denegarla o aceptarla.
 
 
