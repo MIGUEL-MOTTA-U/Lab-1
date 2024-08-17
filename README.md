@@ -1,5 +1,10 @@
 # Archivo README
+## Integrantes
+* Diego Macia
+* Miguel Motta
 
+
+## Respuestas
 ## Parte 1
 
 **Comandos**
