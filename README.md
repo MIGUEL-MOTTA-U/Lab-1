@@ -19,4 +19,11 @@ El commando de [`git commit -m (comentario)`](https://git-scm.com/docs/git-commi
 
 #### cambio a readme
 
+
 #### Miguel: Agrego un cambio en readme
+
+
+## Parte 3
+
+uso de la nueva rama
+
